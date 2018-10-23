@@ -3,11 +3,11 @@ server:
 
 spring:
   application:
-    name: service-ribbon
+    name: SERVICE-RIBBON
 
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://localhost:7761/eureka/
 
 

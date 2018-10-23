@@ -3,9 +3,9 @@ server:
 
 spring:
   application:
-    name: HELLO-SERVICE
+    name: SERVICE-HELLO
 
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://localhost:7761/eureka/

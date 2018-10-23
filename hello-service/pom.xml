@@ -6,16 +6,15 @@
 
     <groupId>com.tosim</groupId>
     <artifactId>hello-service</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
-
     <name>hello-service</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>
         <artifactId>hello-eureka</artifactId>
         <groupId>com.tosim</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>0.0.1-SNAPSHOT</version>
     </parent>
 
     <dependencies>

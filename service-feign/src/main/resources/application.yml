@@ -3,12 +3,12 @@ server:
 
 spring:
   application:
-    name: service-feign
+    name: SERVICE-FEIGN
 
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://localhost:7761/eureka/
 
 feign:
   hystrix:
