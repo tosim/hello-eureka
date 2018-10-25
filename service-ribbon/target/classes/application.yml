@@ -1,13 +1,20 @@
-#server:
-#  port: 8764
-#
-#spring:
-#  application:
-#    name: SERVICE-RIBBON
+server:
+  port: 8764
 
-#eureka:
-#  client:
-#    serviceUrl:
-#      defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: SERVICE-RIBBON
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:7761/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
+
 
 

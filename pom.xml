@@ -19,6 +19,11 @@
         <module>service-zuul</module>
         <module>config-server</module>
         <module>config-client</module>
+        <module>service-hi</module>
+        <module>service-miya</module>
+        <module>service-lucy</module>
+        <module>service-turbine</module>
+        <module>common-config</module>
     </modules>
 
     <properties>

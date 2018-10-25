@@ -1,9 +1,14 @@
+spring:
+  application:
+    name: CONFIG-SERVER
+  profiles:
+    active: dev
+---
 server:
   port: 7888
 
 spring:
-  application:
-    name: CONFIG-SERVER
+  profiles: dev
   cloud:
     config:
       server:

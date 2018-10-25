@@ -10,4 +10,11 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:7761/eureka/
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
+
+
 
